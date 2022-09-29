@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+# This part is broken. Excluding it here keep it in the package but
+# doesn't run tests on it. This is just a workaround. See
+# #855906. This should be removed on next upstream version.
+export DH_GOLANG_EXCLUDES := cli/altsrc
+
+%:
+	dh $@ --buildsystem=golang --with=golang

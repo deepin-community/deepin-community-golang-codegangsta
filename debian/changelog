@@ -1,0 +1,78 @@
+golang-codegangsta-cli (1.18.0-3) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Remove Built-Using from arch:all -dev package
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Jelmer Vernooĳ ]
+  * debian/control: Unicodify my surname.
+  * Change priority extra to priority optional.
+  * Add basic debian/upstream/metadata.
+
+  [ Dr. Tobias Quathamer ]
+  * Use debhelper v11
+  * Update team name
+  * Update to Standards-Version 4.2.1
+  * Use golang-any instead of golang-go
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Sat, 01 Dec 2018 20:10:19 +0100
+
+golang-codegangsta-cli (1.18.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Ignore github.com/codegangsta/cli/altsrc. Not used for Debian and YAML
+    stuff currently broken. Closes: #855906.
+
+ -- Vincent Bernat <bernat@debian.org>  Fri, 03 Mar 2017 08:44:23 +0100
+
+golang-codegangsta-cli (1.18.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Paul Tagliamonte ]
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Tim Potter ]
+  * Add B-D on newer version dh-golang to build in jessie-backports
+  * Add me as uploader
+
+  [ Dmitry Smirnov ]
+  * Added watch file.
+  * New upstream release (Closes: #835398).
+  * (Build-)Depends += "golang-github-urfave-cli-dev".
+  * Standards-Version: 3.9.8.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sun, 28 Aug 2016 00:33:47 +1000
+
+golang-codegangsta-cli (0.0~git20151221-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream snapshot.
+  * Standards-Version: 3.9.7.
+  * Install upstream "README.md".
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sat, 26 Mar 2016 09:23:01 +1100
+
+golang-codegangsta-cli (0.0~git20150117-3) unstable; urgency=medium
+
+  * Team upload.
+  * Fix Breaks/Replaces version number so upgrades work. (Closes: #801558)
+
+ -- Tianon Gravi <tianon@debian.org>  Mon, 12 Oct 2015 10:50:21 -0700
+
+golang-codegangsta-cli (0.0~git20150117-2) unstable; urgency=medium
+
+  * Team upload.
+  * Rename binary package to "golang-github-codegangsta-cli" to be in line with
+    pkg-go team policy.
+
+ -- Tianon Gravi <tianon@debian.org>  Mon, 05 Oct 2015 01:54:00 -0700
+
+golang-codegangsta-cli (0.0~git20150117-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #775606)
+
+ -- Jelmer Vernooij <jelmer@debian.org>  Sat, 17 Jan 2015 15:45:59 +0000
